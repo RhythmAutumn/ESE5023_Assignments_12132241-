@@ -78,6 +78,6 @@ a=max(Total_solutions)
 b=min(Total_solutions)
 for j in range(100):
     if Total_solutions[j] == a:
-        print("i="+str(j+1)+" can yield the maximum number "+str(a)+".")
+        print("i="+str(j+1)+" can yield the maximum number "+str(a)+" of Total_solutions.")
     if Total_solutions[j] == b:
-        print("i="+str(j+1)+" can yield the minimum number "+str(b)+".")
+        print("i="+str(j+1)+" can yield the minimum number "+str(b)+" of Total_solutions.")
