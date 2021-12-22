@@ -1,0 +1,14 @@
+!------------------------
+!This is a subroutine
+!------------------------
+subroutine Matrix_multip(m,n,r)
+
+implicit none
+
+real(4), intent(in) ,dimension(:,:) :: m(5,3)
+real(4), intent(in) ,dimension(:,:) :: n(3,5)
+real(4), intent(out) ,dimension(:,:) :: r(5,5)
+
+r=matmul(m,n)
+
+end subroutine Matrix_multip
